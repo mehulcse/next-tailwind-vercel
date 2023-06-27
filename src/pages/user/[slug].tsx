@@ -23,10 +23,10 @@ export default function Home() {
 				className="w-96 p-4 m-4 mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 				<div className="flex self-center justify-center flex-col items-center pb-10">
 					<Image
-						src={user.image}
+						src={user?.image}
 						width={200}
 						height={200}
-						alt={user.name}
+						alt={user?.name}
 						className="w-24 h-24 mb-3 rounded-full shadow-lg"
 					/>
 					<h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{user?.name}</h5>
